@@ -44,7 +44,7 @@ class Scanner {
       // We are at the beginning of the next lexeme.
       start = current;
 
-      // scanToken();
+      scanToken();
     }
     tokens.add(new Token(EOF, "", null, line));
     return tokens;
@@ -215,7 +215,7 @@ class Scanner {
     TokenType type = keywords.get(text);
     if (type == null)
       type = IDENTIFIER;
-      
+
     addToken(type);
   }
 
