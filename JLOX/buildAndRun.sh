@@ -1,3 +1,3 @@
 javac com/craftinginterpreters/lox/*.java
 # java com.craftinginterpreters.lox.Lox ../lox-files/main.lox
-java com.craftinginterpreters.lox.AstPrinter
+java com.craftinginterpreters.lox.Lox ../lox-files/test.lox
