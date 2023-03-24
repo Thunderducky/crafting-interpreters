@@ -7,4 +7,6 @@ javac com/craftinginterpreters/lox/*.java
 # java com.craftinginterpreters.lox.Lox ../lox-files/logic-test.lox
 # java com.craftinginterpreters.lox.Lox ../lox-files/while-test.lox
 # java com.craftinginterpreters.lox.Lox ../lox-files/for-loop-test.lox
-java com.craftinginterpreters.lox.Lox ../lox-files/clock-function-test.lox
+# java com.craftinginterpreters.lox.Lox ../lox-files/clock-function-test.lox
+# java com.craftinginterpreters.lox.Lox ../lox-files/custom-function-test.lox
+java com.craftinginterpreters.lox.Lox ../lox-files/fibonnaci-test.lox
