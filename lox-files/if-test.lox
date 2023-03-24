@@ -1,0 +1,21 @@
+var a = 3;
+var b = "hello";
+var c = 0;
+
+if(true){
+  a = 4;
+}
+
+if(false){
+  b = "world";
+}
+
+if(a < 2){
+  c = 1;
+} else {
+  c = 5;
+}
+
+print a;
+print b;
+print c;
